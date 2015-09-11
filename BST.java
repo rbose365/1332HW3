@@ -92,6 +92,9 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
         return root;
     }
 
+    /**
+    *
+    */
     private BSTNode<T> searchNode(BSTNode<T> node, T data) {
         if (root.getData().equals(data) || node == null) {
             return node;
